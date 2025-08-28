@@ -1,0 +1,40 @@
+/* === Mengatur tampilan dasar body halaman === */
+body {
+  margin: 0; /* Hilangkan jarak default dari browser */
+  padding: 0; /* Hilangkan padding default */
+  font-family: Arial, sans-serif; /* Gunakan font Arial agar rapi dan modern */
+
+  /* Background gradasi dari oranye cerah ke oranye pastel */
+  background: linear-gradient(to right, #ff9a00, #ffe0b2);
+}
+
+/* === Mengatur box utama (kontainer biodata/pengalaman) === */
+.container {
+  background: #ffffff;  /* Warna putih untuk isi box agar teks jelas dibaca */
+  max-width: 800px;     /* Lebar maksimal box 800px */
+  margin: 50px auto;    /* Posisi di tengah (atas-bawah 50px, kanan-kiri otomatis) */
+  padding: 30px;        /* Jarak isi teks dari tepi box */
+  border-radius: 15px;  /* Sudut box dibuat melengkung */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Efek bayangan lembut */
+}
+
+/* === Judul utama (h1) === */
+h1 {
+  text-align: center; /* Posisi teks di tengah */
+  color: #e65100;     /* Warna oranye tua untuk menonjolkan judul */
+}
+
+/* === Sub judul (h2) === */
+h2 {
+  text-align: center; /* Posisi teks di tengah */
+  color: #444;        /* Warna abu-abu gelap agar lebih lembut dari hitam */
+  margin-bottom: 20px;/* Jarak bawah antara subjudul dan paragraf */
+}
+
+/* === Paragraf (isi cerita/pengalaman) === */
+p {
+  font-size: 16px;     /* Ukuran huruf normal */
+  line-height: 1.8em;  /* Tinggi baris agar teks lebih nyaman dibaca */
+  text-align: justify; /* Teks rata kiri dan kanan (rapi seperti di koran) */
+  color: #222;         /* Warna abu gelap (tidak terlalu hitam agar nyaman) */
+}
